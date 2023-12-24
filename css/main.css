@@ -559,7 +559,8 @@ a:hover {
 }
 
 .bg-dark-2 {
-  background-color: #111111 !important;
+  background-color: #000 !important;
+  border: 0.5px solid rgba(255, 255, 255, 0.10);
 }
 
 .bg-dark-3 {
@@ -2205,6 +2206,7 @@ a:hover {
  * ======================================================================!*/
 .footer__area-border-top {
   border-top: 1px solid rgba(128, 128, 128, 0.3);
+  justify-content: space-between;
 }
 
 .footer__area .widgettitle {
@@ -6761,6 +6763,12 @@ select {
 }
 [data-arts-theme-text=light] .figure-project__heading {
   color: #fff;
+  /* Transition for smooth color change */
+  transition: color 0.3s ease;
+}
+
+[data-arts-theme-text=light] .figure-project__heading:hover {
+  color: #6A48F2; /* Purple color */
 }
 [data-arts-theme-text=light] .slider__dot svg .circle {
   stroke: #fff;
