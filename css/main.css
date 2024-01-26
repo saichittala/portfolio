@@ -129,9 +129,9 @@
  */
 
 :root {
-  /* Fonts */
+  /* Fonts Neue Montreal */
   --font-primary: "Open Sans", sans-serif;
-  --font-secondary: "Neue Montreal", serif;
+  --font-secondary: "Futura", serif;
   /* Colors */
   --color-dark-1: #111111;
   --color-dark-2: #262626;
