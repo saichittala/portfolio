@@ -128,25 +128,25 @@
  */
 @media screen {
   --font-primary: "Open Sans", sans-serif;
-  --font-secondary: "Futura", serif;
+  --font-secondary: Futura,Trebuchet MS,Arial,sans-serif;
 }
 @media screen and (max-width: 1400px) {
   --font-primary: "Open Sans", sans-serif;
-  --font-secondary: "Futura", serif;
+  --font-secondary: Futura,Trebuchet MS,Arial,sans-serif;
 }
 @media screen and (max-width: 1280px) {
   --font-primary: "Open Sans", sans-serif;
-  --font-secondary: "Futura", serif;
+  --font-secondary: Futura,Trebuchet MS,Arial,sans-serif;
 }
 @media screen and (max-width: 991px) {
   --font-primary: "Open Sans", sans-serif;
-  --font-secondary: "Futura", serif;
+  --font-secondary: Futura,Trebuchet MS,Arial,sans-serif;
 }
 :root {
   --font-family: "Open Sans", sans-serif;
   /* Fonts Neue Montreal */
   --font-primary: "Open Sans", sans-serif;
-  --font-secondary: "Futura", serif;
+  --font-secondary: Futura,Trebuchet MS,Arial,sans-serif;
   /* Colors */
   --color-dark-1: #111111;
   --color-dark-2: #262626;
