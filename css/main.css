@@ -143,6 +143,7 @@
   --font-secondary: "Futura", serif;
 }
 :root {
+  --font-family: "Open Sans", sans-serif;
   /* Fonts Neue Montreal */
   --font-primary: "Open Sans", sans-serif;
   --font-secondary: "Futura", serif;
