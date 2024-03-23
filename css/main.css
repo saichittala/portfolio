@@ -2278,7 +2278,7 @@ a:hover {
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: var(--color-dark-1);
+/*  background-color: var(--color-dark-1);*/
   width: 0;
   height: 1px;
 }
@@ -2290,10 +2290,10 @@ a:hover {
 }
 @media screen and (max-width: 991px) {
   .filter .filter__item:first-child {
-    padding-top: 0;
+    padding-top: 12px;
   }
   .filter .filter__item:last-child {
-    padding-bottom: 0;
+    padding-bottom: 12px;
   }
 }
 /*!========================================================================
