@@ -6863,6 +6863,8 @@ select {
 [data-arts-theme-text=light] .filter__item {
   color: #fff;
   opacity: 0.3;
+  border: 1px solid transparent;
+  border-radius: 99px;
 }
 [data-arts-theme-text=light] .filter__item:hover {
   color: #fff;
@@ -6870,6 +6872,9 @@ select {
 }
 [data-arts-theme-text=light] .filter__item_active {
   opacity: 1;
+  border: 1px solid #212121;
+  border-radius: 99px;
+}
 }
 [data-arts-theme-text=light] .filter__underline {
   background-color: #fff;
