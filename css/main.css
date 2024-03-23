@@ -126,40 +126,62 @@
  * ==========================================================================
  * ==========================================================================
  */
+/* Scroll Bar*/
+.scrollbar-thumb {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6px !important;
+    height: 8px;
+    background: #212121 !important;
+    border-radius: 99px !important;
+}
+.scrollbar-track {
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+    background: #111111 !important;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: opacity 0.5s 0.5s ease-out;
+    transition: opacity 0.5s 0.5s ease-out;
+}
 @media screen {
-  --font-primary: "Open Sans", sans-serif !important;
-  --font-secondary: "Futura", sans-serif !important;
+  --font-primary: "Google Sans", sans-serif !important;
+  --font-secondary: "Lato", sans-serif !important;
 }
 @media screen and (max-width: 1400px) {
-  --font-primary: "Open Sans", sans-serif !important;
-  --font-secondary: "Futura", sans-serif !important;
+  --font-primary: "Google Sans", sans-serif !important;
+  --font-secondary: "Lato", sans-serif !important;
 }
 @media screen and (max-width: 1280px) {
-  --font-primary: "Open Sans", sans-serif !important;
-  --font-secondary: "Futura", sans-serif !important;
+  --font-primary: "Google Sans", sans-serif !important;
+  --font-secondary: "Lato", sans-serif !important;
 }
 @media screen and (max-width: 991px) {
-  --font-primary: "Open Sans", sans-serif !important;
-  --font-secondary: "Futura", sans-serif !important;
+  --font-primary: "Google Sans", sans-serif !important;
+  --font-secondary: "Lato", sans-serif !important;
 }
 @media screen and (max-width: 200px) {
-  --font-primary: "Open Sans", sans-serif !important;
-  --font-secondary: "Futura", sans-serif !important;
+  --font-primary: "Google Sans", sans-serif !important;
+  --font-secondary: "Lato", sans-serif !important;
 }@media screen and (max-width: 300px) {
-  --font-primary: "Open Sans", sans-serif !important;
-  --font-secondary: "Futura", sans-serif !important;
+  --font-primary: "Google Sans", sans-serif !important;
+  --font-secondary: "Lato", sans-serif !important;
 }@media screen and (max-width: 400px) {
-  --font-primary: "Open Sans", sans-serif !important;
-  --font-secondary: "Futura", sans-serif !important;
+  --font-primary: "Google Sans", sans-serif !important;
+  --font-secondary: "Lato", sans-serif !important;
 }@media screen and (max-width: 500px) {
-  --font-primary: "Open Sans", sans-serif !important;
-  --font-secondary: "Futura", sans-serif !important;
+  --font-primary: "Google Sans", sans-serif !important;
+  --font-secondary: "Lato", sans-serif !important;
 }
 :root {
-  --font-family: "Open Sans", sans-serif !important;
-  /* Fonts Neue Montreal */
-  --font-primary: "Open Sans", sans-serif !important;
-  --font-secondary: "Futura", sans-serif !important;
+  --font-family: "Google Sans", sans-serif !important;
+  /* Fonts */
+  --font-primary: "Raleway", sans-serif !important;
+  --font-secondary: "Lato", sans-serif !important;
   /* Colors */
   --color-dark-1: #111111;
   --color-dark-2: #262626;
@@ -591,7 +613,9 @@ a:hover {
 
 .bg-dark-2 {
   background-color: #000 !important;
-  border: 0.5px solid rgba(255, 255, 255, 0.10);
+  border-top: 0.5px solid rgba(255, 255, 255, 0.10);
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.10);
+
 }
 
 .bg-dark-3 {
@@ -659,7 +683,7 @@ a:hover {
 }
 
 .button[data-hover]:before {
-  content: attr(data-hover);
+/*  content: attr(data-hover);*/
   display: block;
   position: absolute;
   top: 50%;
@@ -758,6 +782,63 @@ a:hover {
 .button_filled.button_hovering {
   background: var(--color-dark-1);
   color: var(--color-dark-1);
+}
+.button_filled.button_white {
+  border: 2px solid transparent!important;
+  color: #fff;
+  background: #0172E4;
+/*  text-transform: capitalize;*/
+  letter-spacing: 0.2px !important;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 12px 32px;
+}
+.button_filled.button_white:hover {
+  color: #fff;
+  border: 2px solid #000 !important;
+  box-shadow: 0px 0px 0px 2px #0172E4;
+/*  text-transform: capitalize;*/
+  letter-spacing: 0.2px !important;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 12px 32px;
+
+}
+.button_filled.button_white:selected {
+  color: #fff;
+  border: 2px solid #000 !important;
+  box-shadow: 0px 0px 0px 4px #0172E4;
+    padding: 12px 32px;
+
+}
+.button_filled.button_black {
+    border: 2px solid transparent;
+    color: #FFF;
+    background: #242424;
+    /* text-transform: capitalize; */
+    letter-spacing: 0.2px !important;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 12px 32px;
+}
+.button_filled.button_black:hover {
+  color: #fff;
+  border: 2px solid #fff !important;
+  box-shadow: 0px 0px 0px 2px #0172E4;
+/*  text-transform: capitalize;*/
+  letter-spacing: 0.2px !important;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 12px 32px;
+  background: #0172E4
+
+}
+.button_filled.button_black:selected {
+  color: #fff;
+  border: 2px solid #000 !important;
+  box-shadow: 0px 0px 0px 4px #0172E4;
+    padding: 12px 32px;
+
 }
 /*!========================================================================
  * 7. Button Solid
@@ -6752,12 +6833,12 @@ select {
 [data-arts-theme-text=light] .input-float__input_focused + .input-float__label {
   color: #fff;
 }
-[data-arts-theme-text=light] a {
+/*[data-arts-theme-text=light] a {
   color: var(--color-gray-1);
-}
-[data-arts-theme-text=light] a:hover {
+}*/
+/*[data-arts-theme-text=light] a:hover {
   color: #fff;
-}
+}*/
 [data-arts-theme-text=light] a.hover-zoom:hover .hover-zoom__caption {
   color: #fff;
 }
@@ -6800,7 +6881,7 @@ select {
 }
 
 [data-arts-theme-text=light] .figure-project__heading:hover {
-  color: #86868D; /* Purple color */
+  color: #0172E4; /* Purple color */
 }
 [data-arts-theme-text=light] .slider__dot svg .circle {
   stroke: #fff;
@@ -6824,7 +6905,7 @@ select {
   fill: #fff;
 }
 [data-arts-theme-text=light] .circle-button__circle:hover .svg-circle {
-  border-color: white;
+  border-color: #FFF;
 }
 [data-arts-theme-text=light] .section-nav-projects__link {
   color: #fff;
@@ -8554,10 +8635,10 @@ small, .small {
 .pt-medium {
   padding-top: calc(1 * (var(--distance-min-medium) * 1px));
 }
-@media screen and (min-width: 320px) {
+/*@media screen and (min-width: 320px) {
   .pt-medium {
     padding-top: calc(1 * (var(--distance-min-medium) * 1px + (var(--distance-max-normal) - var(--distance-min-medium)) * ((100vw - 320px) / 2240)));
-  }
+  }*/
 }
 @media screen and (min-width: 2560px) {
   .pt-medium {
