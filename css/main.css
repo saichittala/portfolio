@@ -6920,7 +6920,7 @@ select {
   color: var(--color-gray-2) !important;
 }
 [data-arts-theme-text=light] .figure-icon__wrapper-icon:hover {
-  border-color: #fff;
+  border-color: #0172E4;
 }
 
 /*!========================================================================
