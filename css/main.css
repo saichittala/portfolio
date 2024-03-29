@@ -1521,7 +1521,7 @@ a:hover {
   }
 }
 .figure-icon__wrapper-icon:hover {
-  border-color: var(--color-dark-1);
+  border-color: #0172E4
 }
 
 .figure-icon__icon {
