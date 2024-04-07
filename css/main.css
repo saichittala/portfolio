@@ -126,6 +126,9 @@
  * ==========================================================================
  * ==========================================================================
  */
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Mukta:wght@200;300;400;500;600;700;800&display=swap')
+</style>
 /* Scroll Bar*/
 .scrollbar-thumb {
     position: absolute;
@@ -178,10 +181,8 @@
   --font-secondary: "Lato", sans-serif !important;
 }
 :root {
-  --font-family: "Google Sans", sans-serif !important;
-  /* Fonts */
-  --font-primary: "Raleway", sans-serif !important;
-  --font-secondary: "Lato", sans-serif !important;
+  --font-primary: "Libre Baskerville", serif;
+  --font-secondary: 'Mukta';
   /* Colors */
   --color-dark-1: #111111;
   --color-dark-2: #262626;
@@ -8652,13 +8653,13 @@ small, .small {
 }
 
 .pt-large {
-  /*padding-top: calc(1 * (var(--distance-min-large) * 1px));*/
+  padding-top: calc(1 * (var(--distance-min-large) * 1px));
   padding-top: 72px;
   padding-bottom: 72px;
 }
 @media screen and (min-width: 320px) {
  .pt-large {
-  /*  padding-top: calc(1 * (var(--distance-min-large) * 1px + (var(--distance-max-large) - var(--distance-min-large)) * ((100vw - 320px) / 2240)));*/
+    padding-top: calc(1 * (var(--distance-min-large) * 1px + (var(--distance-max-large) - var(--distance-min-large)) * ((100vw - 320px) / 2240)));
   }
 } -->
 @media screen and (min-width: 2560px) {
