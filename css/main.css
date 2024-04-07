@@ -181,8 +181,8 @@
   --font-secondary: "Lato", sans-serif !important;
 }
 :root {
-  --font-primary: "Open Sans, sans-serif"
-  --font-secondary: 'Lato';
+  --font-primary: "Open Sans", sans-serif;
+  --font-secondary: "Lato", sans-serif;
   /* Colors */
   --color-dark-1: #111111;
   --color-dark-2: #262626;
