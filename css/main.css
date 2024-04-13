@@ -803,6 +803,9 @@ a:hover {
   font-size: 14px;
   font-weight: 400;
   padding: 12px 32px;
+    transform: scale(1.15) translate(0px, 0px);
+    transition: all 200ms ease-in-out 0s;
+}
 
 }
 .button_filled.button_white:selected {
