@@ -794,7 +794,7 @@ a:hover {
   padding: 12px 32px;
 }
 
-/* .button_filled.button_white:hover {
+.button_filled.button_white:hover {
   color: #fff;
   border: 2px solid #000 !important;
   box-shadow: 0px 0px 0px 2px #0172E4;
@@ -806,8 +806,8 @@ a:hover {
   transition: all 200ms ease-in-out 0s;
   background: linear-gradient(93deg, #53b2fe, #065af3);
   animation: moveAround 1s ease-in-out infinite alternate;
-} */
-  .button_filled.button_white:hover {
+}
+/*   .button_filled.button_white:hover {
     color: #fff;
     border: 2px solid #000 !important;
     box-shadow: 0px 0px 0px 2px #0172E4;
@@ -816,27 +816,8 @@ a:hover {
     font-weight: 400;
     padding: 12px 32px;
     background: linear-gradient(93deg, #53b2fe, #065af3);
-    animation: rotateButton 0.5s infinite alternate linear;
   }
-
-  @keyframes rotateButton {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-<script>
-  document.querySelector('.button_filled.button_white').addEventListener('mousemove', function(event) {
-    let rect = event.target.getBoundingClientRect();
-    let x = event.clientX - rect.left; // X position of cursor relative to the button
-    let y = event.clientY - rect.top; // Y position of cursor relative to the button
-    let angle = Math.atan2(y - rect.height / 2, x - rect.width / 2) * (180 / Math.PI); // Calculate angle
-
-    event.target.style.setProperty('--rotation', angle + 'deg');
-  });
-</script>
+ */
 }
 
 }
