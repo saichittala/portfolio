@@ -788,25 +788,34 @@ a:hover {
   border: 2px solid transparent!important;
   color: #fff;
   background: #0172E4;
-/*  text-transform: capitalize;*/
   letter-spacing: 0.2px !important;
   font-size: 14px;
   font-weight: 400;
   padding: 12px 32px;
 }
+
 .button_filled.button_white:hover {
   color: #fff;
   border: 2px solid #000 !important;
   box-shadow: 0px 0px 0px 2px #0172E4;
-/*  text-transform: capitalize;*/
   letter-spacing: 0.2px !important;
   font-size: 14px;
   font-weight: 400;
   padding: 12px 32px;
-    transform: scale(1.15) translate(0px, 0px);
-    transition: all 200ms ease-in-out 0s;
-    background: linear-gradient(93deg, #53b2fe, #065af3);
+  transform: scale(1.15) translate(0px, 0px);
+  transition: all 200ms ease-in-out 0s;
+  background: linear-gradient(93deg, #53b2fe, #065af3);
+  animation: moveAround 1s ease-in-out infinite alternate;
 }
+
+@keyframes moveAround {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(-5px, -5px); }
+  50% { transform: translate(5px, 5px); }
+  75% { transform: translate(5px, -5px); }
+  100% { transform: translate(-5px, 5px); }
+}
+
 }
 
 }
