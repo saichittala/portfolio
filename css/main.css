@@ -3394,8 +3394,12 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
     align-content: center;
     margin-top: 10px;
     border-radius: 99px;
-    background: rgba(0, 0, 0, 0.8) !important;
+    background: rgba(0, 0, 0, 0.6) !important;
     backdrop-filter: blur(20px);
+    /* transition: 500ms ease-in-out; */
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 0.5px solid rgba(255, 255, 255, 0.1);
 }
 }
 .header_sticky[data-arts-header-sticky-logo=primary] .logo__img-primary {
