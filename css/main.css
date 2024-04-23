@@ -3400,6 +3400,7 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
     padding-left: 40px;
     padding-right: 40px;
     border: 0.5px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.8s cubic-bezier(0, 0, 0.2, 1);
 }
 }
 .header_sticky[data-arts-header-sticky-logo=primary] .logo__img-primary {
