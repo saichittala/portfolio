@@ -3381,18 +3381,18 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
 
 .header_sticky {
     position: fixed;
-    top: 3% !important;
+    top: 2% !important;
     left: 10%;
     width: 80%;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 1%;
+    padding-bottom: 1%;
     box-shadow: 0px 0px 30px 0px rgba(24, 24, 24, 0.1);
     background: rgba(0, 0, 0, 0.6) !important;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px) !important;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 83px;
-    padding-left: 4%;
-    padding-right: 4%;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 }
 }
