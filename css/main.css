@@ -3381,10 +3381,10 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
 .header_sticky {
     position: fixed;
     top: 2% !important;
-    left: 30%;
-    width: 60%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    left: 10%;
+    width: 80%;
+    padding-top: 1.4%;
+    padding-bottom: 1.4%;
     box-shadow: 0px 0px 30px 0px rgba(24, 24, 24, 0.1);
     background: rgba(0, 0, 0, 0.6) !important;
     backdrop-filter: blur(20px) !important;
@@ -3393,23 +3393,15 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
     padding-left: 48px;
     padding-right: 48px;
 }
-}
-@media only screen and (max-width: 768px) {
-  /* Adjustments for smaller screens */
-  .header_sticky {
-    top: 2% !important;
-    left: 10%;
-    width: 80%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    box-shadow: 0px 0px 30px 0px rgba(24, 24, 24, 0.1);
-    background: rgba(0, 0, 0, 0.6) !important;
-    backdrop-filter: blur(20px) !important;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 83px;
-    padding-left: 24px;
-    padding-right: 24px;
-  }
+
+@media screen and (max-width: 768px) {
+    .header_sticky {
+        width: 90%; /* Adjust width for smaller screens */
+        left: 5%; /* Adjust left position for smaller screens */
+        border-radius: 20px; /* Adjust border radius for smaller screens */
+        padding-left: 24px; /* Adjust padding for smaller screens */
+        padding-right: 24px; /* Adjust padding for smaller screens */
+    }
 }
 }
 .header_sticky[data-arts-header-sticky-logo=primary] .logo__img-primary {
