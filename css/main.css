@@ -3399,8 +3399,8 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
 
 @media screen and (max-width: 768px) {
     .header_sticky {
-        width: 90%; /* Adjust width for smaller screens */
-        left: 5%; /* Adjust left position for smaller screens */
+        width: 92%; /* Adjust width for smaller screens */
+        left: 4%; /* Adjust left position for smaller screens */
         border-radius: 99px; /* Adjust border radius for smaller screens */
         padding-left: 24px; /* Adjust padding for smaller screens */
         padding-right: 24px; /* Adjust padding for smaller screens */
