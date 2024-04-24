@@ -2742,7 +2742,7 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
 }
 
 .grid__item_fluid-5 {
-  padding: 5vw;
+  padding: 4vw;
 }
 @media only screen and (max-width: 767px) {
   .grid__item_fluid-5 {
@@ -3533,6 +3533,7 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
 .hover-zoom {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
+    padding: 1vw;
 }
 .hover-zoom:hover:not(:focus) .hover-zoom__zoom {
   transform: scale(1.15);
@@ -4471,6 +4472,7 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
 [data-arts-parallax] {
   position: relative;
   overflow: hidden;
+  border-radius: 16px 16px 0px 0px;
 }
 [data-arts-parallax] img {
   width: 100%;
@@ -5462,6 +5464,8 @@ body.elementor-editor-active [data-arts-os-animation] {
 .section-grid__item {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 24px;
 }
 
 @media screen and (min-width: 990px) {
