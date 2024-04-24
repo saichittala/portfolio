@@ -3401,6 +3401,8 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
         border-radius: 20px; /* Adjust border radius for smaller screens */
         padding-left: 24px; /* Adjust padding for smaller screens */
         padding-right: 24px; /* Adjust padding for smaller screens */
+        background: rgba(0, 0, 0, 0.6) !important;
+        backdrop-filter: blur(20px) !important;
     }
 }
 }
