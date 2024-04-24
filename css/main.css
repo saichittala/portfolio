@@ -3244,6 +3244,8 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
   opacity: 0;
   visibility: hidden;
   pointer-events: initial;
+  -webkit-backdrop-filter: blur(100px);
+  backdrop-filter: blur(100px) !important;
 }
 
 .header_menu-right .menu .sub-menu {
