@@ -3382,8 +3382,8 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
 .header_sticky {
     position: fixed;
     top: 3% !important;
-    left: 15%;
-    width: 70%;
+    left: 10%;
+    width: 80%;
     padding-top: 15px;
     padding-bottom: 15px;
     box-shadow: 0px 0px 30px 0px rgba(24, 24, 24, 0.1);
