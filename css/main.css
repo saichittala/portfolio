@@ -3394,6 +3394,7 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
     border-radius: 99px;
     padding-left: 48px;
     padding-right: 48px;
+    -webkit-backdrop-filter: blur(20px);
 }
 
 @media screen and (max-width: 768px) {
