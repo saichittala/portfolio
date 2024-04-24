@@ -3385,8 +3385,8 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
     top: 2% !important;
     left: 10%;
     width: 80%;
-    padding-top: 1.4%;
-    padding-bottom: 1.4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     box-shadow: 0px 0px 30px 0px rgba(24, 24, 24, 0.1);
     background: rgba(0, 0, 0, 0.6) !important;
     backdrop-filter: saturate(180%) blur(20px) !important;
