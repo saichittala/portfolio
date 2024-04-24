@@ -3410,6 +3410,9 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
         background: rgba(0, 0, 0, 0.6) !important;
         backdrop-filter: saturate(180%) blur(20px) !important;
         -webkit-backdrop-filter: blur(20px);
+        padding-top: 3.1%;
+        padding-bottom: 3.1%;
+    }
     }
 }
 }
