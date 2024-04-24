@@ -337,6 +337,7 @@ a:hover {
   color: var(--color-dark-2);
   text-decoration: none;
   box-shadow: 0px 0px 0px 4px rgba(1, 114, 228, 0.25);
+border-radius: 24px;
 }
 
 .page-wrapper__content {
