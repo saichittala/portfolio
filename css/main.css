@@ -3378,6 +3378,10 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
   box-shadow: 0px 0px 30px 0px rgba(24, 24, 24, 0);
   will-change: padding, box-shadow, background-color;
 }
+.all-access-pass {
+    --aap-min-height: 56px;
+    --aap-blur: 22px;
+}
 .header_sticky {
     position: fixed;
     top: 2% !important;
