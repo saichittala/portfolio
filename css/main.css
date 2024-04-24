@@ -3377,6 +3377,12 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
   transition: all 0.4s ease;
   box-shadow: 0px 0px 30px 0px rgba(24, 24, 24, 0);
   will-change: padding, box-shadow, background-color;
+    background: rgba(0, 0, 0, 0.6) !important;
+    backdrop-filter: blur(20px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 83px;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 .header_sticky {
