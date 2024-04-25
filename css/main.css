@@ -3541,7 +3541,7 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
   transform: scale(1.15);
 }
 .hover-zoom:hover:not(:focus) .hover-zoom__inner {
-  transform: scale(0.9);
+  transform: scale(1.0);
 }
 .hover-zoom:hover:not(:focus) .section-image__caption-horizontal {
   transform: translate(0, -15px);
