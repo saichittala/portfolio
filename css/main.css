@@ -2000,9 +2000,9 @@ a:hover {
   display: block;
 }
 
-.figure-project:not(.figure-project_no-hover):hover:not(:focus) .figure-project__content {
+/* .figure-project:not(.figure-project_no-hover):hover:not(:focus) .figure-project__content {
   transform: translateY(-15px);
-}
+} */
 
 .figure-project__link {
   position: relative;
