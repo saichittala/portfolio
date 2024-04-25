@@ -3567,6 +3567,7 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
   will-change: transform;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
+  border-radius: 16px 16px 0px 0px;
 }
 
 .hover-zoom__caption {
