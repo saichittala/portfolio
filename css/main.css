@@ -180,6 +180,9 @@
   --font-primary: "Google Sans", sans-serif !important;
   --font-secondary: "Lato", sans-serif !important;
 }
+.bordernone {
+  border: none !important;
+}
 :root {
   --font-primary: "Open Sans", sans-serif;
   --font-secondary: "Lato", sans-serif;
