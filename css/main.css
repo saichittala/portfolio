@@ -3537,7 +3537,7 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
 .hover-zoom {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
-    padding: 1vw;
+    padding: 1.5vw;
 }
 .hover-zoom:hover:not(:focus) .hover-zoom__zoom {
   transform: scale(1.15);
