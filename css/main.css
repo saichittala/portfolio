@@ -2746,7 +2746,7 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
 }
 
 .grid__item_fluid-5 {
-  padding: 4vw;
+  padding: 3.5vw;
 }
 @media only screen and (max-width: 767px) {
   .grid__item_fluid-5 {
