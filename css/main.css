@@ -811,6 +811,7 @@ a:hover {
   padding: 12px 32px;
   transform: scale(1.15) translate(0px, 0px);
   transition: all 200ms ease-in-out 0s;
+  border-radius: 99px !important;
 /*   background: linear-gradient(93deg, #53b2fe, #065af3); */
 /*   animation: moveAround 1s ease-in-out infinite alternate; */
 }
