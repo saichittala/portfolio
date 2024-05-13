@@ -3410,8 +3410,8 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
         width: 92%; /* Adjust width for smaller screens */
         left: 4%; /* Adjust left position for smaller screens */
         border-radius: 99px; /* Adjust border radius for smaller screens */
-        padding-left: 4px; /* Adjust padding for smaller screens */
-        padding-right: 4px; /* Adjust padding for smaller screens */
+/*         padding-left: 4px; /* Adjust padding for smaller screens */
+/*         padding-right: 4px; /* Adjust padding for smaller screens */ */ */
         background: rgba(0, 0, 0, 0.6) !important;
         backdrop-filter: saturate(180%) blur(20px) !important;
         -webkit-backdrop-filter: blur(20px);
