@@ -2591,7 +2591,7 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
 
   .grid__item_desktop-4 {
     flex: 0 0 33.333333%;
-    max-width: 33.333333%;
+    max-width: 50%;
   }
 
   .grid__item_desktop-3 {
