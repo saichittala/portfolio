@@ -4483,7 +4483,6 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
   position: relative;
   overflow: hidden;
   border-radius: 4px;
-    height: 40vw !important;
 }
 [data-arts-parallax] img {
   width: 100%;
