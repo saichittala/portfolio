@@ -127,8 +127,116 @@
  * ==========================================================================
  */
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Mukta:wght@200;300;400;500;600;700;800&display=swap')
-</style>
+@font-face {
+  font-family: 'RM Neue';
+  src: url('../fonts-rm/rm-neue-thin.woff2') format('woff2'),
+       url('../fonts-rm/rm-neue-thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RM Neue';
+  src: url('../fonts-rm/rm-neue-thin-italic.woff2') format('woff2'),
+       url('../fonts-rm/rm-neue-thin-italic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RM Neue';
+  src: url('../fonts-rm/rm-neue-light.woff2') format('woff2'),
+       url('../fonts-rm/rm-neue-light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RM Neue';
+  src: url('../fonts-rm/rm-neue-light-italic.woff2') format('woff2'),
+       url('../fonts-rm/rm-neue-light-italic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RM Neue';
+  src: url('../fonts-rm/rm-neue-regular.woff2') format('woff2'),
+       url('../fonts-rm/rm-neue-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RM Neue';
+  src: url('../fonts-rm/rm-neue-regular-italic.woff2') format('woff2'),
+       url('../fonts-rm/rm-neue-regular-italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RM Neue';
+  src: url('../fonts-rm/rm-neue-medium.woff2') format('woff2'),
+       url('../fonts-rm/rm-neue-medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RM Neue';
+  src: url('../fonts-rm/rm-neue-medium-italic.woff2') format('woff2'),
+       url('../fonts-rm/rm-neue-medium-italic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RM Neue';
+  src: url('../fonts-rm/rm-neue-bold.woff2') format('woff2'),
+       url('../fonts-rm/rm-neue-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RM Neue';
+  src: url('../fonts-rm/rm-neue-bold-italic.woff2') format('woff2'),
+       url('../fonts-rm/rm-neue-bold-italic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RM Neue';
+  src: url('../fonts-rm/rm-neue-black.woff2') format('woff2'),
+       url('../fonts-rm/rm-neue-black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RM Neue';
+  src: url('../fonts-rm/rm-neue-black-italic.woff2') format('woff2'),
+       url('../fonts-rm/rm-neue-black-italic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+}
+ </style>
+ body {
+  font-family: 'RM Neue', sans-serif;
+}
+
+h1 {
+  font-family: 'RM Neue', sans-serif;
+  font-weight: 700; /* Bold */
+}
+
+p {
+  font-family: 'RM Neue', sans-serif;
+  font-weight: 400; /* Regular */
+  font-style: italic; /* Italic */
+}
 /* Scroll Bar*/
 .scrollbar-thumb {
     position: absolute;
@@ -151,41 +259,12 @@
     -webkit-transition: opacity 0.5s 0.5s ease-out;
     transition: opacity 0.5s 0.5s ease-out;
 }
-@media screen {
-  --font-primary: "Google Sans", sans-serif !important;
-  --font-secondary: "Lato", sans-serif !important;
-}
-@media screen and (max-width: 1400px) {
-  --font-primary: "Google Sans", sans-serif !important;
-  --font-secondary: "Lato", sans-serif !important;
-}
-@media screen and (max-width: 1280px) {
-  --font-primary: "Google Sans", sans-serif !important;
-  --font-secondary: "Lato", sans-serif !important;
-}
-@media screen and (max-width: 991px) {
-  --font-primary: "Google Sans", sans-serif !important;
-  --font-secondary: "Lato", sans-serif !important;
-}
-@media screen and (max-width: 200px) {
-  --font-primary: "Google Sans", sans-serif !important;
-  --font-secondary: "Lato", sans-serif !important;
-}@media screen and (max-width: 300px) {
-  --font-primary: "Google Sans", sans-serif !important;
-  --font-secondary: "Lato", sans-serif !important;
-}@media screen and (max-width: 400px) {
-  --font-primary: "Google Sans", sans-serif !important;
-  --font-secondary: "Lato", sans-serif !important;
-}@media screen and (max-width: 500px) {
-  --font-primary: "Google Sans", sans-serif !important;
-  --font-secondary: "Lato", sans-serif !important;
-}
 .bordernone {
   border: none !important;
 }
 :root {
-  --font-primary: "Open Sans", sans-serif;
-  --font-secondary: "Lato", sans-serif;
+  --font-primary: "RM Neue", sans-serif;
+  --font-secondary: "RM Neue", sans-serif;
   /* Colors */
   --color-dark-1: #111111;
   --color-dark-2: #262626;
