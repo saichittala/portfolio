@@ -126,8 +126,7 @@
  * ==========================================================================
  * ==========================================================================
  */
-<style>
-@font-face {
+<style>@font-face {
   font-family: 'RM Neue';
   src: url('../fontss/RMNeue-thin.woff2') format('woff2'),
     url('../fontss/RMNeue-thin.woff') format('woff');
@@ -231,9 +230,7 @@
   font-style: italic;
 }
 
-</style>
-
-body {
+</style>body {
   font-family: 'RM Neue', sans-serif;
 }
 
@@ -13307,7 +13304,6 @@ small,
   -webkit-text-stroke-width: 1;
   -webkit-text-stroke-color: rgba(0, 0, 0, 0.10);
   filter: blur(px)
-  
 }
 
 .item-bottomheading {
@@ -13367,13 +13363,16 @@ small,
     line-height: 30px;
   }
 }
+
 @media screen and (max-width: 479px) {
   .item-bottomheading {
     width: 100%;
     font-size: 16px;
     line-height: 30px;
+    line-height: 2vw;
   }
 }
+
 @media screen and (max-width: 479px) {
   .item-bottomheading-grey {
     width: 100%;
@@ -13386,5 +13385,12 @@ small,
   .container-fluid {
     padding-left: 16px;
     padding-right: 16px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .position-2 {
+    position: absolute;
+    bottom: 16px;
   }
 }
