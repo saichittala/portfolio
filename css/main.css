@@ -126,106 +126,107 @@
  * ==========================================================================
  * ==========================================================================
  */
-<style>@font-face {
+<style>
+@font-face {
   font-family: 'RM Neue';
-  src: url('../fonts-rm/RMNeue-thin.woff2') format('woff2'),
-    url('../fonts-rm/RMNeue-thin.woff') format('woff');
+  src: url('../fontss/RMNeue-thin.woff2') format('woff2'),
+    url('../fontss/RMNeue-thin.woff') format('woff');
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'RM Neue';
-  src: url('../fonts-rm/RMNeue-thin-italic.woff2') format('woff2'),
-    url('../fonts-rm/RMNeue-thin-italic.woff') format('woff');
+  src: url('../fontss/RMNeue-thin-italic.woff2') format('woff2'),
+    url('../fontss/RMNeue-thin-italic.woff') format('woff');
   font-weight: 100;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'RM Neue';
-  src: url('../fonts-rm/RMNeue-light.woff2') format('woff2'),
-    url('../fonts-rm/RMNeue-light.woff') format('woff');
+  src: url('../fontss/RMNeue-light.woff2') format('woff2'),
+    url('../fontss/RMNeue-light.woff') format('woff');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'RM Neue';
-  src: url('../fonts-rm/RMNeue-light-italic.woff2') format('woff2'),
-    url('../fonts-rm/RMNeue-light-italic.woff') format('woff');
+  src: url('../fontss/RMNeue-light-italic.woff2') format('woff2'),
+    url('../fontss/RMNeue-light-italic.woff') format('woff');
   font-weight: 300;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'RM Neue';
-  src: url('../fonts-rm/RMNeue-regular.woff2') format('woff2'),
-    url('../fonts-rm/RMNeue-regular.woff') format('woff');
+  src: url('../fontss/RMNeue-regular.woff2') format('woff2'),
+    url('../fontss/RMNeue-regular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'RM Neue';
-  src: url('../fonts-rm/RMNeue-regular-italic.woff2') format('woff2'),
-    url('../fonts-rm/RMNeue-regular-italic.woff') format('woff');
+  src: url('../fontss/RMNeue-regular-italic.woff2') format('woff2'),
+    url('../fontss/RMNeue-regular-italic.woff') format('woff');
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'RM Neue';
-  src: url('../fonts-rm/RMNeue-medium.woff2') format('woff2'),
-    url('../fonts-rm/RMNeue-medium.woff') format('woff');
+  src: url('../fontss/RMNeue-medium.woff2') format('woff2'),
+    url('../fontss/RMNeue-medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'RM Neue';
-  src: url('../fonts-rm/RMNeue-medium-italic.woff2') format('woff2'),
-    url('../fonts-rm/RMNeue-medium-italic.woff') format('woff');
+  src: url('../fontss/RMNeue-medium-italic.woff2') format('woff2'),
+    url('../fontss/RMNeue-medium-italic.woff') format('woff');
   font-weight: 500;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'RM Neue';
-  src: url('../fonts-rm/RMNeue-semibold.woff2') format('woff2'),
-    url('../fonts-rm/RMNeue-semibold.woff') format('woff');
+  src: url('../fontss/RMNeue-semibold.woff2') format('woff2'),
+    url('../fontss/RMNeue-semibold.woff') format('woff');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'RM Neue';
-  src: url('../fonts-rm/RMNeue-bold.woff2') format('woff2'),
-    url('../fonts-rm/RMNeue-bold.woff') format('woff');
+  src: url('../fontss/RMNeue-bold.woff2') format('woff2'),
+    url('../fontss/RMNeue-bold.woff') format('woff');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'RM Neue';
-  src: url('../fonts-rm/RMNeue-bold-italic.woff2') format('woff2'),
-    url('../fonts-rm/RMNeue-bold-italic.woff') format('woff');
+  src: url('../fontss/RMNeue-bold-italic.woff2') format('woff2'),
+    url('../fontss/RMNeue-bold-italic.woff') format('woff');
   font-weight: 700;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'RM Neue';
-  src: url('../fonts-rm/RMNeue-black.woff2') format('woff2'),
-    url('../fonts-rm/RMNeue-black.woff') format('woff');
+  src: url('../fontss/RMNeue-black.woff2') format('woff2'),
+    url('../fontss/RMNeue-black.woff') format('woff');
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'RM Neue';
-  src: url('../fonts-rm/RMNeue-black-italic.woff2') format('woff2'),
-    url('../fonts-rm/RMNeue-black-italic.woff') format('woff');
+  src: url('../fontss/RMNeue-black-italic.woff2') format('woff2'),
+    url('../fontss/RMNeue-black-italic.woff') format('woff');
   font-weight: 900;
   font-style: italic;
 }
@@ -233,17 +234,17 @@
 </style>
 
 body {
-  font-family: 'RM Neue';
+  font-family: 'RM Neue', sans-serif;
 }
 
 h1 {
-  font-family: 'RM Neue', sans-serif;
+  font-family: 'RM Neue';
   font-weight: 700;
   /* Bold */
 }
 
 p {
-  font-family: 'RM Neue', sans-serif;
+  font-family: 'RM Neue';
   font-weight: 400;
   /* Regular */
   font-style: italic;
@@ -270,8 +271,8 @@ p {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: opacity 0.5s 0.5s ease-out;
-  transition: opacity 0.5s 0.5s ease-out;
+  -webkit-transition: opacity 0.5s ease-out;
+  transition: opacity 0.5s ease-out;
 }
 
 .bordernone {
@@ -279,8 +280,8 @@ p {
 }
 
 :root {
-  --font-primary: 'RM Neue';
-  --font-secondary: 'RM Neue';
+  --font-primary: Rmneue, sans-serif;
+  --font-secondary: Rmneue, sans-serif;
   /* Colors */
   --color-dark-1: #111111;
   --color-dark-2: #262626;
@@ -13292,9 +13293,9 @@ small,
   /* color: #fff; */
   letter-spacing: -.08vw;
   width: 60%;
-  font-family: Rmneue, sans-serif;
+  font-family: 'RM Neue' !important;
   font-size: 2.3vw;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 2.8vw;
   position: relative;
   top: auto;
@@ -13306,7 +13307,6 @@ small,
   -webkit-text-stroke-width: 1;
   -webkit-text-stroke-color: rgba(0, 0, 0, 0.10);
   filter: blur(px)
-  font-family: 'Rm Neue', sans-serif;
   
 }
 
@@ -13314,13 +13314,13 @@ small,
   letter-spacing: -.08vw;
   font-size: 1.5vw;
   font-weight: 400;
-  line-height: 3vw;
+  line-height: 2vw;
   position: relative;
   color: #fff;
   text-shadow: 0px 4px 19px rgba(0, 0, 0, 0.25);
   -webkit-text-stroke-width: 1;
   -webkit-text-stroke-color: rgba(0, 0, 0, 0.10);
-  font-family: 'Rm Neue', sans-serif;
+  font-family: 'RM Neue' !important;
 }
 
 .item-bottomheading-grey {
@@ -13328,9 +13328,10 @@ small,
   letter-spacing: -.08vw;
   font-size: 1.5vw;
   font-weight: 400;
-  line-height: 3vw;
+  line-height: 2vw;
   position: relative;
   text-shadow: 0px 4px 19px rgba(0, 0, 0, 0.25);
+  font-family: 'RM Neue' !important;
 }
 
 @media screen and (max-width: 479px) {
