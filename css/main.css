@@ -277,8 +277,8 @@ p {
 }
 
 :root {
-  --font-primary: Rmneue, sans-serif;
-  --font-secondary: Rmneue, sans-serif;
+  --font-primary: 'RM Neue', sans-serif;
+  --font-secondary: 'RM Neue', sans-serif;
   /* Colors */
   --color-dark-1: #111111;
   --color-dark-2: #262626;
