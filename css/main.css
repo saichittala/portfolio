@@ -13394,3 +13394,7 @@ small,
     bottom: 16px;
   }
 }
+
+.bg-fullblack {
+  background: #000 !important;
+}
