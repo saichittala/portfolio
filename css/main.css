@@ -126,7 +126,9 @@
  * ==========================================================================
  * ==========================================================================
  */
-<style>@font-face {
+<style>
+
+@font-face {
   font-family: 'RM Neue';
   src: url('../fontss/RMNeue-thin.woff2') format('woff2'),
     url('../fontss/RMNeue-thin.woff') format('woff');
