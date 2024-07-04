@@ -127,22 +127,23 @@
  * ==========================================================================
  */
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-</style>
+ @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;500;600;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-body {
-  font-family:"Open Sans";
+
+ body {
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 h1 {
-  font-family:"Open Sans";;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 700;
   /* Bold */
 }
 
 p {
-  font-family:"Open Sans";;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
   /* Regular */
   font-style: normal;
@@ -178,8 +179,8 @@ p {
 }
 
 :root {
-  --font-primary:"Open Sans";
-  --font-secondary:"Open Sans";;
+  --font-primary: "Source Sans Pro", sans-serif;
+  --font-secondary: "Source Sans Pro", sans-serif;;
   /* Colors */
   --color-dark-1: #111111;
   --color-dark-2: #262626;
@@ -13119,7 +13120,7 @@ small,
   color: #929292;
   letter-spacing: -.03em;
   width: 90%;
-  font-family:"Open Sans";
+  font-family: "Roboto", sans-serif;
   font-size: 2.2vw;
   font-weight: 300;
   line-height: 2.8vw;
@@ -13189,7 +13190,7 @@ small,
   /* color: #fff; */
   letter-spacing: -.08vw;
   width: 70%;
-  font-family:"Open Sans";
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 2.3vw;
   font-weight: 400;
   line-height: 2.8vw;
@@ -13215,7 +13216,7 @@ small,
   text-shadow: 0px 4px 19px rgba(0, 0, 0, 0.25);
   -webkit-text-stroke-width: 1;
   -webkit-text-stroke-color: rgba(0, 0, 0, 0.10);
-  font-family:"Open Sans";
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .item-bottomheading-grey {
@@ -13226,7 +13227,7 @@ small,
   line-height: 2vw;
   position: relative;
   text-shadow: 0px 4px 19px rgba(0, 0, 0, 0.25);
-  font-family:"Open Sans";
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 @media screen and (max-width: 479px) {
