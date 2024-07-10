@@ -13298,8 +13298,8 @@ small,
 .bg-fullblack {
   background: #000 !important;
   color: #fff;
-  border-top: 1px solid #ffffff20;
-  border-bottom: 1px solid #ffffff20;
+  border-top: 1px solid #ffffff10;
+  border-bottom: 1px solid #ffffff10;
 }
 .about-bg-footer {
   background: #fff !important;
