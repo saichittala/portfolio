@@ -13297,6 +13297,7 @@ small,
 
 .bg-fullblack {
   background: #000 !important;
+  color: #fff;
 }
 .about-bg-footer {
   background: #fff !important;
@@ -13304,4 +13305,8 @@ small,
 
 .font-400 {
   font-weight: 400 !im;
+}
+
+.p-white {
+  color: #fff !important;
 }
