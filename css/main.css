@@ -13298,3 +13298,10 @@ small,
 .bg-fullblack {
   background: #000 !important;
 }
+.about-bg-footer {
+  background: #fff !important;
+}
+
+.font-400 {
+  font-weight: 400 !im;
+}
