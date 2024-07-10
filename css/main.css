@@ -9750,7 +9750,7 @@ small,
 .pt-large {
   padding-top: calc(1 * (var(--distance-min-large) * 1px));
   padding-top: 72px;
-  padding-bottom: 72px;
+/*   padding-bottom: 72px; */
 }
 
 @media screen and (min-width: 320px) {
@@ -13298,6 +13298,8 @@ small,
 .bg-fullblack {
   background: #000 !important;
   color: #fff;
+  border-top: 1px solid #ffffff20;
+  border-bottom: 1px solid #ffffff20;
 }
 .about-bg-footer {
   background: #fff !important;
