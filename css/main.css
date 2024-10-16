@@ -13157,7 +13157,7 @@ small,
 }
 
 .section-grid__item:active {
- transform: scale(0.95);
+ transform: scale(0.95) !important;
 }
 
 .position-1 {
