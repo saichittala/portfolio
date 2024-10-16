@@ -13156,6 +13156,10 @@ small,
   opacity:0.4;
 }
 
+.section-grid__item:active {
+ transform: scale(0.95);
+}
+
 .position-1 {
   position: absolute;
   top: 0;
